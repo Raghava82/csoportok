@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3575317-486f-49a2-a924-32d1ddd4893f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/static/cal/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/templates/cal/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/templates/cal/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/templates/cal/event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocalendar/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocalendar/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocalendar/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocalendar/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dMNnVceACe69IKn7Rw3CDYvrRX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/naptar/templates/pdf" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/naptar/templates/pdf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/naptar/templates/naptar" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3575317-486f-49a2-a924-32d1ddd4893f" name="Default Changelist" comment="" />
+      <created>1592231168921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592231168921</updated>
+      <workItem from="1592657058892" duration="210000" />
+      <workItem from="1592663009627" duration="7704000" />
+      <workItem from="1592673873612" duration="2264000" />
+      <workItem from="1592806401988" duration="956000" />
+      <workItem from="1592827979121" duration="2043000" />
+      <workItem from="1592830531880" duration="610000" />
+      <workItem from="1592894184076" duration="1059000" />
+      <workItem from="1592916491873" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="258" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592657266583">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="258" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1592657266583" />
+    <state x="457" y="47" width="676" height="775" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592239358756">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="457" y="47" width="676" height="775" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1592239358756" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csoportok/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
