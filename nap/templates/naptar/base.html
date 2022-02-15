@@ -1,0 +1,92 @@
+{% load static %}
+<!doctype html>
+<html lang="hu">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{% static 'naptar/css/cerulean.min.css' %}">
+  <link rel="stylesheet" href="{% static 'naptar/css/all.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'naptar/css/styles.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <!-- Load paper.css for happy printing -->
+  <link rel="stylesheet" href="{% static 'naptar/css/paper.css' %}">
+  <!-- Set page size here: A5, A4 or A3 -->
+  <!-- Set also "landscape" if you need -->
+ <style type="text/css">
+            @page { size: A3 landscape }
+            body {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .header {
+                font-size: 20px;
+                font-weight: 100;
+                text-align: center;
+                color: #007cae;
+            }
+            .title {
+                font-size: 22px;
+                font-weight: 100;
+               /* text-align: right;*/
+               padding: 10px 20px 0px 20px;
+            }
+            .title span {
+                color: #007cae;
+            }
+            .details {
+                padding: 10px 20px 0px 20px;
+                text-align: left !important;
+                /*margin-left: 40%;*/
+            }
+            .hrItem {
+                border: none;
+                height: 1px;
+                /* Set the hr color */
+                color: #333; /* old IE */
+                background-color: #fff; /* Modern Browsers */
+            }
+        </style>
+  <title>Csoport bejelentkezések</title>
+ <!-- <header class="site-header">
+  <nav class="navbar navbar-expand-md navbdstar-dark bg-transparent fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-4" href="/">Csoport bejelentkezések</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" href="/">Kezdőoldal</a>
+          <a class="nav-item nav-link" href="/calendar">Naptár</a>
+        </div>
+         Navbar Right Side
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Bejelentkezés</a>
+          <a class="nav-item nav-link" href="#">Regisztráció</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>-->
+</head>
+<body>
+
+  <h1 class="title">{% block title %}{% endblock %}</h1>
+  <hr>
+
+  {% block content %}
+  {% endblock %}
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="{% static 'naptar/js/slim.min.js' %}"></script>
+  <script src="{% static 'naptar/js/popper.min.js' %}"></script>
+  <script src="{% static 'naptar/js/bootstrap.min.js' %}"></script>
+
+  {% block script %}
+  {% endblock %}
+</body>
+</html>

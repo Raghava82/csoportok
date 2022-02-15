@@ -1,0 +1,72 @@
+{% extends 'naptar/base.html' %}
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8">
+  <title>Naptár</title>
+
+  <!-- Normalize or reset CSS with your favorite library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <!-- Load paper.css for happy printing -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css">
+
+  <!-- Set page size here: A5, A4 or A3 -->
+  <!-- Set also "landscape" if you need -->
+  <style>@page { size: A3 landscape }
+  body {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .header {
+                font-size: 20px;
+                font-weight: 100;
+                text-align: center;
+                color: #007cae;
+            }
+            .title {
+                font-size: 22px;
+                font-weight: 100;
+               /* text-align: right;*/
+               padding: 10px 20px 0px 20px;
+            }
+            .title span {
+                color: #007cae;
+            }
+            .details {
+                padding: 10px 20px 0px 20px;
+                text-align: left !important;
+                /*margin-left: 40%;*/
+            }
+            .hrItem {
+                border: none;
+                height: 1px;
+                /* Set the hr color */
+                color: #333; /* old IE */
+                background-color: #fff; /* Modern Browsers */
+            }
+
+  </style>
+</head>
+
+<!-- Set "A5", "A4" or "A3" for class name -->
+<!-- Set also "landscape" if you need -->
+<body class="A3 landscape">
+
+  <!-- Each sheet element should have the class "sheet" -->
+  <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
+  <section class="sheet padding-10mm">
+
+    <!-- Write HTML just like a web page -->
+    {% block content %}
+    {{ calendar }}
+    {% endblock %}
+
+
+  </section>
+
+</body>
+
+</html>

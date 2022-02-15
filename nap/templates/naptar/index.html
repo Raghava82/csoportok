@@ -1,0 +1,16 @@
+{% extends 'naptar/base.html' %}
+
+{% block title %}
+Naptár
+{% endblock %}
+
+{% block content %}
+<div class="clearfix">
+	<a class="btn btn-info left" href="{% url 'naptar:calendar' %}?{{ prev_month }}"> Előző hónap </a>
+	<a class="btn btn-info right" href="{% url 'naptar:calendar' %}?{{ next_month }}"> Következő hónap </a>
+	<a class="btn btn-info right" href="{% url 'naptar:event_new' %}"> Új csoport </a>
+	<!--<a class="btn btn-info right" href="{% url 'naptar:nyomtatas' %}"> Nyomtatás </a>-->
+</div>
+
+{{ calendar }}
+{% endblock %}
